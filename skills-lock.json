@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "injective-mcp-servers": {
+      "source": "InjectiveLabs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "0cf3cee43f9cf8fea5d9992065a688919203e0a66722fb0f19861da7a1a8075f"
+    },
+    "injective-trading-account": {
+      "source": "InjectiveLabs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "9a71a80fb445a872779e2b03fe6d1eb38ba26ecfae780040d8276a40f8288a6f"
+    },
+    "injective-trading-autosign": {
+      "source": "InjectiveLabs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "302ef2b70e96fbbfaa702938daeb240aadbc1fc77c8f87206174d1cdffc7f5b0"
+    },
+    "injective-trading-market-data": {
+      "source": "InjectiveLabs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "c98e1d4935c78140f96760b9ac4d75b674f5acb0e7bde179fb16f1410c4cb5d0"
+    }
+  }
+}
