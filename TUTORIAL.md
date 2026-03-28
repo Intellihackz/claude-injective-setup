@@ -67,12 +67,28 @@ cd ..
 claude mcp add -e INJECTIVE_NETWORK=testnet injective node ~/mcp-server/dist/mcp/server.js
 ```
 
+this will add the following to your `~/.claude.json`:
+
+```json
+{
+  "mcpServers": {
+    "injective": {
+      "command": "node",
+      "args": ["/home/YOUR_USERNAME/mcp-server/dist/mcp/server.js"],
+      "env": {
+        "INJECTIVE_NETWORK": "testnet"
+      }
+    }
+  }
+}
+```
+
 **windows:**
 ```bash
 claude mcp add injective node C:\path\to\mcp-server\dist\mcp\server.js
 ```
 
-to set the network on windows, open `~/.claude.json` and add the env block:
+to set the network on windows, open `~/.claude.json` and add the env block manually:
 
 ```json
 {
@@ -99,7 +115,7 @@ you should see: `injective: node ... - ✓ Connected`
 ### 4. install agent-skills
 
 ```bash
-npx skills add InjectiveLabs/agent-skills --skill injective-trading-market-data --skill injective-trading-account --skill injective-trading-autosign
+npx skills add InjectiveLabs/agent-skills --skill injective-trading-market-data injective-trading-account injective-trading-autosign
 ```
 
 ### 5. start Claude Code

@@ -3,7 +3,10 @@
     "allow": [
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''''mcpServers'''', {}\\), indent=2\\)\\)\")",
       "Read(//c/Users/TOBILOBA/.claude/**)",
-      "Bash(xargs wc:*)"
+      "Bash(xargs wc:*)",
+      "mcp__injective__market_price",
+      "mcp__injective__account_balances",
+      "mcp__injective__market_list"
     ]
   }
 }
