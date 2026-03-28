@@ -160,7 +160,6 @@ Transaction successful!
 
 - all market data queries are live — results will differ from the above depending on when you run them
 - wallet address and mnemonic above are from a testnet session — do not send real funds to this address
-- trading prompts (open position, close position) require a funded subaccount — deposit first
 
 ---
 
