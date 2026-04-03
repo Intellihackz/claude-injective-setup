@@ -229,6 +229,7 @@ earlier (small gas fees account for the ~0.000057 difference).
 ## 8. bridge withdraw to Ethereum
 
 **prompt:**
+
 ```
 can you bridge withdraw to eth
 ```
@@ -261,6 +262,7 @@ Do you want to proceed?
 after confirming and entering wallet password:
 
 **output:**
+
 ```
 Bridge withdrawal submitted successfully!
 
@@ -297,4 +299,58 @@ Position opened successfully!
 | Quantity          | 35.89 INJ                                                        |
 | Margin Used       | $21.00 USDT                                                      |
 | Liquidation Price | $2.2845 USDT                                                     |
+```
+
+## 10. open a limit order
+
+**prompt:**
+
+```
+can you open a limit order for inj/usdt
+```
+
+Claude asks for details:
+
+```
+Need a few details:
+ 
+1. Direction — long or short?
+2. Limit price — at what price? (current INJ is ~$2.786)
+3. Size — notional in USDT?
+4. Leverage
+5. Wallet — same as before?
+```
+
+user responds, Claude confirms:
+
+```
+Confirming this trade:
+ 
+| Field           | Value                                      |
+|-----------------|--------------------------------------------|
+| Market          | INJ/USDT PERP                              |
+| Type            | Limit                                      |
+| Direction       | Long                                       |
+| Limit Price     | $3.00 USDT                                 |
+| Notional        | $100 USDT                                  |
+| Leverage        | 5x                                         |
+| Margin required | ~$20 USDT                                  |
+| Wallet          | inj1jthfhpz9m54cmzg2rdzz257k7744ec8nycz702 |
+ 
+Confirm? (yes/no)
+```
+
+**output:**
+
+```
+Limit order placed successfully!
+ 
+| Field       | Value                                                            |
+|-------------|------------------------------------------------------------------|
+| Tx Hash     | A8ED30668D857289E8530C6A6908D672FC738DC3632EDB62AE40E29EBA233454 |
+| Market      | INJ/USDT PERP                                                    |
+| Side        | Long (Buy)                                                       |
+| Limit Price | $3.00 USDT                                                       |
+| Quantity    | 33.333 INJ                                                       |
+| Margin      | $20.00 USDT                                                      |
 ```
