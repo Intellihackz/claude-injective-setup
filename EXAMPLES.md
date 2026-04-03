@@ -273,3 +273,28 @@ Bridge withdrawal submitted successfully!
 
 You can track it on the Injective Bridge explorer at https://bridge.injective.network.
 ```
+
+---
+
+## 9. open a perpetual position
+
+**prompt:**
+```
+open a market order long position for inj/usdt of 100$ with 5x leverage
+```
+
+Claude asks for your wallet password to sign, then:
+
+**output:**
+
+```
+Position opened successfully!
+
+| Field             | Value                                                            |
+|-------------------|------------------------------------------------------------------|
+| Tx Hash           | 7B8266B6F83BC7712211C16748BD78C21CABB83CFA7EEB6878AB56C139718A1B |
+| Execution Price   | $2.786 USDT                                                      |
+| Quantity          | 35.89 INJ                                                        |
+| Margin Used       | $21.00 USDT                                                      |
+| Liquidation Price | $2.2845 USDT                                                     |
+```
