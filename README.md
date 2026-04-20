@@ -26,8 +26,8 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 see [TUTORIAL.md](./TUTORIAL.md) for the full setup guide.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/injective-claude-starter
-cd injective-claude-starter
+git clone https://github.com/intellihackz/claude-injective-setup
+cd claude-injective-setup
 ```
 
 ---
