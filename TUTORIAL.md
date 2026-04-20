@@ -1,4 +1,4 @@
-# injective-claude-starter — tutorial
+# claude-injective-setup — tutorial
 
 query and trade on Injective markets using natural language with Claude Code.
 
@@ -44,8 +44,8 @@ npm install -g @anthropic-ai/claude-code
 first, fork this repo on GitHub, then clone your fork:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/injective-claude-starter
-cd injective-claude-starter
+git clone https://github.com/intellihackz/claude-injective-setup
+cd claude-injective-setup
 ```
 
 ### 2. clone and build the Injective MCP server
