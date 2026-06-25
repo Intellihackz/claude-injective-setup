@@ -13,9 +13,7 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 
 <br>
 <div align="center">
-  <a href="https://x.com/zedonchain_/status/2047445091346763780/video/1">
-    <img src="https://img.shields.io/badge/Watch_Demo_Video-X_/_Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="Watch Demo Video" />
-  </a>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EEZ8CNdgcVI?si=9prC_VkruCqDXfq3&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br>
 
