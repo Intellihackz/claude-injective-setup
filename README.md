@@ -10,6 +10,7 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 
 - [tutorial](./tutorial/0-setup.md) - full setup guide
 - [examples](./tutorial/1-examples.md) - sample prompts and responses
+- [demo video](https://x.com/zedonchain_/status/2047445091346763780/video/1) - watch it in action
 
 ---
 
