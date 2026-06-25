@@ -160,7 +160,7 @@ what is the current price of INJ?
 deposit 10 INJ into my trading subaccount
 ```
 
-see [EXAMPLES.md](./EXAMPLES.md) for more prompts and their full responses.
+see [examples](./1-examples.md) for more prompts and their full responses.
 
 ---
 

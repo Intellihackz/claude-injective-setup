@@ -8,8 +8,8 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 
 ## quick links
 
-- [tutorial](./TUTORIAL.md) — full setup guide
-- [examples](./EXAMPLES.md) — sample prompts and responses
+- [tutorial](./tutorial/0-setup.md) - full setup guide
+- [examples](./tutorial/1-examples.md) - sample prompts and responses
 
 ---
 
@@ -23,7 +23,7 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 
 ## get started
 
-see [TUTORIAL.md](./TUTORIAL.md) for the full setup guide.
+see [tutorial](./tutorial/0-setup.md) for the full setup guide.
 
 ```bash
 git clone https://github.com/intellihackz/claude-injective-setup
