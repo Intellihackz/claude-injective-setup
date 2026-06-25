@@ -13,7 +13,9 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 
 <br>
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EEZ8CNdgcVI?si=9prC_VkruCqDXfq3&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/watch?v=EEZ8CNdgcVI">
+    <img src="https://img.youtube.com/vi/EEZ8CNdgcVI/maxresdefault.jpg" width="560" alt="Watch Demo Video" />
+  </a>
 </div>
 <br>
 
