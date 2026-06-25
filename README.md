@@ -11,13 +11,7 @@ this repo wires up [Claude Code](https://claude.ai/code) with the [Injective MCP
 - [tutorial](./tutorial/0-setup.md) - full setup guide
 - [examples](./tutorial/1-examples.md) - sample prompts and responses
 
-<br>
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=EEZ8CNdgcVI">
-    <img src="https://img.youtube.com/vi/EEZ8CNdgcVI/maxresdefault.jpg" width="560" alt="Watch Demo Video" />
-  </a>
-</div>
-<br>
+
 
 ---
 
